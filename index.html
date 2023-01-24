@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador-Alura</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="reset.css" media="screen">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body class="color-de-pagina">
+        <header>
+            <section class="navegacion">
+                <nav>
+                    <img class="img-logo" src="imagenes/nav/logo/Vector.svg" alt="logo">
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section class="main">
+                <section class="seccion-a">
+                    <div class="seccion-ingresado">
+                        <div class="caja-de-texto">
+                            <textarea id="input-texarea" class="input-texto" type="text" placeholder="Introduce el texto aquí"></textarea>
+                        </div>
+                        <div class="aviso-funciones">
+                            <p class="aviso">Solo letras minúsculas y sin acentos</p>
+                            <div class="botones">
+                                <button id="encriptar-id" class="encriptar" >Encriptar</button><button id="desencriptar-id" class="desencriptar">Desencriptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </section><section class="seccion-b">
+                    <div class="divicion-resultado">
+                        <div class="contenedor1-resultado">
+                            <img class="imagen-muneco" src="imagenes/main/muheco.svg" alt="">
+                            <h2 class="titulo-contenedor1">Ningún mensaje fue encontrado</h2>
+                            <p class="parrafo-contenedor1">Ingresa el texto que deseas encriptar o desencriptar</p>
+                        </div>
+                        <div class="contenedor2-resultado">
+                            <textarea readonly="readonly" id="resultado" class="resultado-del-evento">
+                            </textarea>
+                            <button class="funcion-copiar" id="copiar-id">Copiar</button>
+                            </div>
+                    </div>
+                </section>
+
+            </section>
+        </main>
+    </body>
+
+</html>
